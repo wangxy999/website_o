@@ -1,0 +1,130 @@
+body {
+    font-family: 'Microsoft YaHei'
+}
+
+.container-fluid {
+    background-image: url(../images/conb.png);
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.container-fluid .container {
+    padding: 0;
+}
+
+.col-xs-4,
+.col-md-6 {
+    padding: 0;
+}
+
+.product {
+    width: 100%;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+
+.Tproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tproduct img {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.BTproduct {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+
+.BTproduct h3 {
+    width: 75%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #aa313a;
+    line-height: 2.3rem;
+    border-bottom: 1px solid #aa313a;
+    letter-spacing: 0.1rem;
+}
+
+.BTproduct p {
+    color: #a29e9d;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+.BTproduct p .instructions {
+    font-weight: bold;
+    color: #858482;
+}
+
+.BTproduct p .price {
+    font-weight: bold;
+    color: #aa313a;
+}
+
+.BTproduct img {
+    width: 30%;
+}
+
+.BTproduct .Sweep {
+    width: 30%;
+    text-align: center;
+    font-size: 1rem;
+    color: #aa313a;
+}
+
+.product2 {
+    margin-top: 4rem;
+}
+
+
+/* 媒体查询 */
+
+@media (min-width: 768px) {
+    .container-fluid {
+        padding-bottom: 40px;
+    }
+    .product {
+        margin-top: 31px;
+    }
+    .Tproduct img {
+        width: 40%;
+        margin-top: 0;
+    }
+    .BTproduct {
+        padding-left: 0;
+    }
+    .BTproduct h3 {
+        width: 50%;
+        font-size: 30px;
+        font-weight: bold;
+        color: #aa313a;
+        line-height: 50px;
+        letter-spacing: 5px;
+    }
+    .BTproduct p {
+        color: #a29e9d;
+        line-height: 35px;
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+    /* .BTproduct p .instructions {} */
+    .BTproduct img {
+        width: 15%;
+    }
+    .BTproduct .Sweep {
+        width: 15%;
+        text-align: center;
+        font-size: 14px;
+        color: #aa313a;
+        line-height: 16px;
+    }
+    .product2 {
+        margin-top: 60px;
+    }
+}

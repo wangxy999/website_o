@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        functionresize() {
+            vardocEl = document.documentElement;
+            varclientWidth = window.innerWidth;
+            if (!clientWidth) return;
+            if (clientWidth >= 640) {
+                docEl.style.fontSize = '100px';
+            } else {
+                docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+            }
+
+        }
+        resize();
+
+
+        window.addEventListener('resize', resize);
+    </script>
+    <title>匠上匠酒业</title>
+</head>
+
+<body>
+    <!-- 移动端导航 -->
+    <div class="container navtry">
+        <img class="mlogo" src="images/log.png" alt="">
+        <ul class="navul">
+            <li class="active"><a class="one" href="index.html">匠上匠</a></li>
+            <li><a class="two" href="wine.html">匠上匠酒</a></li>
+            <li><a href="news.html">匠上匠新闻</a></li>
+            <li><a href="#">匠上匠招商</a></li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="mlogo" src="images/log.png" alt="">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a class="one" href="index.html">首页</a></li>
+                    <li><a class="two" href="jiu.html">酒</a></li>
+                    <li><a href="#">新闻</a></li>
+                    <li><a href="#">招商</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- pc端导航 -->
+    <nav>
+        <div class="container">
+
+            <div class="nav_box">
+                <div id="header" class="header">
+                    <div id="logo" class="logo"><img src="images/log.png" alt="匠上匠酒业" /></div>
+                </div>
+                <div id="list_box" class="list_box">
+                    <ul>
+                        <li class="active"><a href="index.html">匠上匠</a></li>
+                        <li><a href="#">匠上匠酒</a></li>
+                        <li><a href="news.html">匠上匠新闻</a></li>
+                        <li><a href="#">匠上匠招商</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <!-- 移动端轮播 -->
+    <div id="myCarousel" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol> -->
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner.png" alt="First slide">
+            </div>
+            <!-- <div class="item">
+                <img src="images/banner.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="images/banner.png" alt="Third slide">
+            </div> -->
+        </div>
+    </div>
+    <!-- pc端轮播 -->
+    <div id="myCarousel2" class="carousel slide">
+        <!-- 轮播（Carousel）指标 -->
+        <!-- <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol> -->
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/banner.png" alt="First slide">
+            </div>
+            <!-- <div class="item">
+                <img src="images/banner.png" alt="Second slide">
+            </div>
+            <div class="item">
+                <img src="images/banner.png" alt="Third slide">
+            </div> -->
+        </div>
+    </div>
+    <!-- 主要内容 -->
+    <div class="container-fluid">
+        <div class="container" style="padding: 0">
+            <p class="zzy">匠上匠酒是酱香泰斗张支云嫡孙、张支云家族第三代传人、茅台镇华氏茅酒传人、酱酒少帅张强与北京匠上匠酒业有限公司联合打造的酱香型白酒品牌。</p>
+            <img style="width: 100%;" src="images/zzy.jpg" alt="">
+            <p class="zzy">张强的爷爷张支云大师今年95岁，是中国酱酒资历最深、最具权威的酿酒大师，被誉为“茅台之师”、“酱香泰斗”、“中国酱香型白酒祖师爷”、“茅台镇酱香型白酒的活化石”，为茅台酒厂、酱香白酒行业培养了一大批技术骨干。</p>
+            <div class="text">
+                <h4>张支云：</h4>
+                <h4>毕生修行致酱香，初心不改酿好酒。</h4>
+                <h4>人生只为一件大事而来，一生只为成就酱香好酒。</h4>
+            </div>
+
+            <img style="width: 100%;" src="images/zq.jpg" alt="">
+            <div class="text textzq">
+                <h4><span>张强</span>，酱酒少帅</h4>
+                <h4>匠上匠酒业总工程师&匠上匠品牌代言人</h4>
+                <h4>酱香泰斗张支云嫡孙、张支云家族第三代传人、茅台镇华氏茅酒传人</h4>
+            </div>
+            <p class="zzy">酱香泰斗张支云嫡孙、张支云家族第三代传人、茅台镇华氏茅酒传人 张强生于酱香世家，肩负家族传承使命，以爷爷张支云为人生榜样，以祖辈的本心匠心为根，立志将家族惟精惟一的匠人精神传承下去，用匠心酿造高品质酱酒，用态度和温度温暖每个酱酒爱好者，传播属于这个时代的酱酒文化。
+            </p>
+            <div class="text">
+                <h4>张强：</h4>
+                <h4>一心一意一酱香，一生一世一传承。</h4>
+                <h4>匠心至臻，承以惟精。</h4>
+            </div>
+            <img style="width: 100%;" src="images/ht.jpg" alt="">
+            <div class="hope">
+                <h1 class="title">匠上匠的愿景</h1>
+                <p class="hope_text">我不是品牌知名度最高的白酒，</p>
+                <p class="hope_text">我更不是价格最高的白酒，</p>
+                <p class="hope_text">我是一支有传承有态度的白酒，</p>
+                <p class="hope_text">我是一支有温度的白酒，</p>
+                <p class="hope_text">我是朋友之间最愿意分享品尝的白酒，</p>
+                <p class="hope_text">我是一支能拿的出手的性价比最高的白酒，</p>
+                <p class="hope_text">我是一支为朋友专属定制的白酒，彰显个性和品质，</p>
+                <p class="hope_text">我是一支自饮省钱，分享能赚钱的白酒，</p>
+                <p class="hope_text">我是一支流通股票，能长期提现的潜力股。</p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer_left col-xs-7 col-md-5">
+                    <img src="images/log.png" alt="">
+                    <h4>酱香泰斗传世之作，</h4>
+                    <h4>华氏茅酒正宗传承。</h4>
+                    <h4>酿制虽繁不敢省工序，品质虽高不敢减物力</h4>
+                    <h4>坚守匠心酿，喝过知好酒</h4>
+                </div>
+                <div class="footer_right col-xs-5 col-md-7">
+                    <h4>联系电话：400-9977-999</h4>
+
+                    <img src="images/ewm.png" alt="">
+                </div>
+            </div>
+            <p class="copyright">
+                <span>@copy版权所有：北京匠上匠酒业有限公司&nbsp;&nbsp;&nbsp;</span>
+                <span>京ICP备0000001221号</span>
+                <span class="address">公司地址：丰台科技园</span>
+            </p>
+        </div>
+    </footer>
+</body>
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $('#myCarousel').carousel({
+        interval: 2000
+    })
+    $('#myCarousel2').carousel({
+        interval: 2000
+    })
+</script>
+<script>
+    $("#list_box .active a").each(function() {
+        var link = this.href.toLowerCase().substring(0, this.href.length - 5);
+        if (document.location.href.toLocaleLowerCase().indexOf(link) > -1) {
+            $("#list_box  .active a").removeClass("sel");
+            $(this).addClass("sel");
+        }
+    });
+    $(function() {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > 192) {
+            $(".header").removeClass("header");
+            $(".logo").addClass("logo2");
+            $(".list_box").addClass("list_box2");
+            $("nav").addClass("nav");
+            // $('#myCarousel').css('margin-top', '80px');
+        }
+
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop()
+            $(".header").removeClass("header");
+            $(".logo").addClass("logo2");
+            $(".list_box").addClass("list_box2");
+            $("nav").addClass("nav");
+            $('#myCarousel2').css('margin-top', '80px');
+
+        })
+    });
+</script>
+
+</html>

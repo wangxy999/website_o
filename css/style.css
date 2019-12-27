@@ -1,0 +1,451 @@
+.nav_box {
+    display: none;
+}
+
+.navtry {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 4.5rem;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    background-image: url(../images/navb.jpg);
+    background-size: cover;
+}
+
+.mlogo {
+    height: 2rem;
+    margin-top: 1.25rem;
+    margin-right: 3.6rem;
+}
+
+.navul {
+    line-height: 4.5rem;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navul li {
+    float: left;
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.navul li:last-child {
+    margin-right: 0;
+}
+
+.navul .active a {
+    color: #ab313a;
+}
+
+.navul li a {
+    font-size: 1.1rem;
+    color: #5c5b5b;
+}
+
+#myCarousel {
+    margin-top: 4.5rem;
+}
+
+#myCarousel2 {
+    display: none;
+}
+
+p {
+    font-family: 'Microsoft YaHei'
+}
+
+.navbar {
+    display: none;
+    background-image: url(../images/navb.jpg);
+    background-size: cover;
+    background-position-x: 60rem;
+    margin-bottom: 0;
+    border: 0px;
+}
+
+.navbar-default {
+    border-color: transparent;
+}
+
+.carousel-inner>.item>img {
+    width: 100%;
+}
+
+.container-fluid {
+    background-image: url(../images/conb.png);
+    background-size: cover;
+}
+
+.zzy {
+    width: 100%;
+    margin: 2rem 0;
+    font-size: 1.3rem;
+    color: #453120;
+    line-height: 2.3rem;
+    letter-spacing: 0.3rem;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.text h4 {
+    color: #453120;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.text h4:last-child {
+    margin-bottom: 2rem;
+}
+
+.container-fluid {
+    padding-bottom: 2rem;
+}
+
+.footer_left img {
+    margin: 2rem 0 1rem 0;
+    height: 3rem;
+}
+
+.footer_left h4 {
+    font-size: 1rem;
+    color: #333;
+    line-height: 2.3rem;
+}
+
+.footer_right {
+    padding-top: 3rem;
+}
+
+.footer_right h4 {
+    font-size: 1rem;
+    color: #333;
+    margin: 0;
+    line-height: 2.3rem;
+}
+
+.footer_right img {
+    height: 10rem;
+    margin-left: 0.5rem;
+}
+
+.copyright {
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 3rem;
+    /* margin-left: 1.5rem; */
+}
+
+.col-md-5 {
+    padding-left: 0.5rem;
+}
+
+.copyright .address {
+    display: block;
+    line-height: 2rem;
+}
+
+.copyright span {
+    margin-left: 0.5rem;
+}
+
+.text h4:first-child {
+    font-weight: 560;
+}
+
+.textzq {
+    margin-top: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.textzq h4:first-child {
+    font-weight: normal;
+}
+
+.textzq h4:first-child span {
+    font-size: 1.6rem;
+}
+
+.textzq h4:last-child {
+    margin-bottom: 0;
+}
+
+.hope .title {
+    font-size: 2rem;
+    color: #db2128;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+}
+
+.hope_text {
+    font-size: 1.3rem;
+    color: #231815;
+    line-height: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.row {
+    margin: 0;
+}
+
+footer {
+    background-color: #fff;
+}
+
+footer .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+@media (min-width: 768px) {
+    nav {
+        width: 100%;
+        background: url(../images/navb.jpg) repeat;
+        background-size: cover;
+        z-index: 10000;
+    }
+    .header {
+        height: 100px;
+        overflow: hidden;
+        -webkit-transition: 1s all;
+    }
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        ;
+        z-index: 10;
+        overflow: hidden;
+    }
+    .nav_box {
+        margin: 0 auto;
+        display: block;
+    }
+    .logo {
+        width: 250px;
+        height: 45px;
+        margin: 50px auto 0;
+        vertical-align: top;
+    }
+    .logo2 {
+        width: 250px;
+        height: 45px;
+        float: left;
+        margin-top: 14px!important;
+        -webkit-transition: 1s all;
+    }
+    .logo2 img {
+        max-width: 237px;
+        myimg:expression(onload=function() {
+            ¡¡¡¡this.style.width=(this.offsetWidth > 180)?"180px": "auto"
+        }
+        ¡¡¡¡);
+    }
+    .list_box {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .list_box ul {
+        text-align: center;
+        font-family: "Microsoft YaHei", Helvetica;
+    }
+    .list_box ul li {
+        display: inline-block;
+        padding-right: 100px;
+        font-size: 18px;
+    }
+    .list_box ul li:last-child {
+        padding-right: 0px;
+    }
+    .list_box ul li a {
+        color: #5c5b5b;
+        display: block;
+    }
+    .list_box ul li a:hover {
+        color: #ab313a;
+    }
+    #list_box ul li a.sel {
+        color: #ab313a;
+    }
+    .list_box2 {
+        width: 100%;
+        height: 80px;
+        line-height: 80px;
+        margin: 0 auto;
+        -webkit-transition: 1s all;
+    }
+    .list_box2 ul {
+        float: right;
+        font-family: "Microsoft YaHei", Helvetica;
+        width: 62%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .list_box2 ul li {
+        display: inline-block;
+        padding-right: 0;
+        font-size: 15px;
+    }
+    .list_box2 ul li:last-child {
+        padding-right: 0;
+    }
+    .list_box2 ul li a {
+        color: #5c5b5b;
+        display: block;
+    }
+    .list_box2 ul li a:hover {
+        color: #ab313a;
+    }
+    .navbar-brand {
+        padding: 0;
+        height: 110px;
+    }
+    .navbar {
+        display: none;
+        height: 110px;
+        background-image: url(../images/navb.jpg);
+        background-size: cover;
+        background-position-x: 50px;
+    }
+    .logo {
+        height: 52px;
+        margin-top: 29px;
+    }
+    .navbar-nav {
+        width: 70%;
+        float: right;
+    }
+    .navbar-nav>li {
+        width: 25%;
+        height: 110px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .nav>li>a {
+        padding: 0;
+    }
+    .navbar-nav>li>a {
+        width: 40%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .navbar-default .navbar-nav>.active a {
+        border-bottom: 3px solid #aa373d;
+    }
+    .navbar-default .navbar-nav>.active>a {
+        background-color: transparent;
+        color: #aa373d;
+    }
+    .navbar-default .navbar-nav>.active>a:hover {
+        background-color: transparent;
+        color: #aa373d
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        background-color: transparent;
+        color: #aa373d;
+    }
+    .zzy {
+        margin: 31px 0;
+        font-size: 20px;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+    .text {
+        padding: 0 0 0 0;
+    }
+    .text h4 {
+        margin-bottom: 0;
+        line-height: 40px;
+        color: #453120;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .text h4:last-child {
+        margin-bottom: 31px;
+    }
+    .container-fluid {
+        padding-bottom: 40px;
+    }
+    .footer_left img {
+        margin: 29px 0 18px 0;
+        height: 52px;
+    }
+    .footer_left h4 {
+        font-size: 16px;
+        color: #333;
+        margin-bottom: 0px;
+        line-height: 30px;
+        letter-spacing: 5px;
+    }
+    .footer_right {
+        padding-top: 55px;
+    }
+    .footer_right h4 {
+        font-size: 16px;
+        color: #333;
+        margin: 0;
+        line-height: 30px;
+    }
+    .footer_right img {
+        height: 122px;
+        margin-left: 30px;
+    }
+    .copyright {
+        width: 100%;
+        font-size: 16px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .navtry {
+        display: none;
+    }
+    .copyright .address {
+        display: inline-block;
+        line-height: 0;
+    }
+    #myCarousel {
+        margin-top: 0;
+        display: none;
+    }
+    #myCarousel2 {
+        display: block;
+    }
+    .textzq {
+        margin-top: 31px;
+        letter-spacing: 5px
+    }
+    .textzq h4:first-child {
+        font-weight: normal;
+    }
+    .textzq h4:first-child span {
+        font-size: 30px;
+    }
+    .textzq h4:last-child {
+        margin-bottom: 0;
+    }
+    .hope .title {
+        font-size: 50px;
+        color: #db2128;
+        margin-bottom: 31px;
+        margin-top: 67px;
+    }
+    .hope_text {
+        font-size: 20px;
+        color: #231815;
+        line-height: 40px;
+        letter-spacing: 5px;
+    }
+}

@@ -1,0 +1,167 @@
+.container-fluid {
+    padding: 0;
+    background-image: url(../images/conb.png);
+    background-size: cover;
+}
+
+.bread {
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+.bread .title {
+    width: 40%;
+    margin: 2rem 0 3rem 0;
+}
+
+.bread .title img {
+    width: 100%;
+}
+
+.bread .con {
+    display: flex;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #999;
+}
+
+.bread .con .con_left {
+    width: 37%;
+    margin-right: 3%;
+}
+
+.bread .con .con_left img {
+    width: 100%;
+}
+
+.bread .con .con_right {
+    width: 60%;
+}
+
+.bread .con .con_right .right_title {
+    overflow: hidden;
+    font-size: 1.2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin: 1.4rem 0 0.6rem 0;
+}
+
+.bread .con .con_right .right_title .title1 {
+    float: left;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 1.2rem;
+}
+
+.bread .con .con_right .right_title .time {
+    width: 34%;
+    text-align: right;
+    float: right;
+    font-size: 1rem;
+    margin-left: 4%;
+    line-height: 1.7rem;
+}
+
+.bread .con .con_right .right_text {
+    font-size: 1rem;
+    font-family: 'Microsoft YaHei';
+    font-weight: 400;
+    color: rgba(153, 153, 153, 1);
+    word-break: break-all;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.pagination-lg>li>a {
+    padding: 0.8rem 0.8rem;
+    font-size: 1rem;
+}
+
+
+/* 媒体查询 */
+
+@media (min-width: 768px) {
+    .bread {
+        background-color: #fff;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .bread .title {
+        margin: 21px 0 30px 0;
+    }
+    .bread .title img {
+        width: auto;
+    }
+    .bread .con {
+        display: flex;
+        padding-bottom: 31px;
+        margin-bottom: 31px;
+        border-bottom: 1px solid #999;
+    }
+    .bread .con .con_left {
+        width: 25%;
+    }
+    .bread .con .con_left img {
+        width: auto;
+    }
+    .bread .con .con_right {
+        width: 73%;
+        margin-left: 2%;
+    }
+    .bread .con .con_right .right_title {
+        overflow: hidden;
+        font-size: 20px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 1);
+        margin: 35px 0 20px 0;
+    }
+    .bread .con .con_right .right_title .title1 {
+        float: left;
+        width: 75%;
+        font-size: 20px;
+        line-height: 32px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .bread .con .con_right .right_title .time {
+        width: 25%;
+        text-align: right;
+        float: right;
+        font-size: 16px;
+        margin-left: 0;
+    }
+    .bread .con .con_right .right_text {
+        font-size: 16px;
+        font-family: 'Microsoft YaHei';
+        font-weight: 400;
+        color: rgba(153, 153, 153, 1);
+        word-break: break-all;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+    .pagination-lg>li>a {
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+    }
+}
